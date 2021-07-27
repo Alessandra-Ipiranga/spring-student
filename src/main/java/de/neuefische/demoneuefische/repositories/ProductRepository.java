@@ -21,7 +21,7 @@ public class ProductRepository {
         products.add(new Product("ei", "4"));
     }
 
-    public List<Product> list(){
+    public List<Product> list() {
         return Collections.unmodifiableList(products);
     }
 
